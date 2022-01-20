@@ -1,0 +1,82 @@
+#login_register .fv_popup_inner {
+	padding: 16px ;
+	padding-top: 88px;
+	padding-bottom: 48px;
+}
+
+#login_register .fv_popup_inner a,
+.login_form_related .text_Foundation_Primary_B {
+	color: var(--Foundation_Primary_B) !important;
+	cursor: pointer;
+	text-decoration: none;
+	transition: 0.3s ease;
+	font-weight: 600;
+}
+#login_register .fv_popup_inner a:hover,
+.login_form_related .text_Foundation_Primary_B:hover {
+	color: var(--Foundation_Primary_B_hover) !important;
+}
+
+#login_register .login_form_related .login_register_title {
+	margin-bottom: 8px;
+}
+.form-row {
+	position: relative;
+}
+
+/********* form label start **********/
+
+
+/********* form label end **********/
+
+
+#login_register .form-row .button {
+	width: 295px !important;
+}
+#login_register .form-row:nth-child(3) {
+	order: 4;
+}
+#login_register .lost_password {
+	margin-top: 8px;
+	text-align: right;
+	order: 3;
+}
+#login_register p.form-row,
+#login_register .lost_password {
+	padding-bottom: 0 !important;
+}
+#login_register form p.form-row-wide {
+	position: relative;
+}
+#login_register form p.form-row-wide:not(:first-child) {
+	margin-top: 16px !important;
+}
+
+#login_register .form-row button.button {
+	margin-top: 32px ;
+	margin-bottom: 24px;
+}
+
+#login_register .woocommerce-form {
+	display: flex;
+	flex-direction: column;
+}
+
+
+#login_register .u-column1, #login_register .u-column2{
+	width:100% !important;
+	float:none !important;
+	margin:0px !important;
+	}
+#login_register .u-column2{
+	display:none;
+	}
+#login_register h2{
+	display:none;
+	}
+.menu_login_link:not(.show){
+	display:none !important;
+	}
+.woocommerce-form-login__rememberme{
+	display:none !important;
+	}		
